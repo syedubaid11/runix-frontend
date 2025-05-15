@@ -19,7 +19,7 @@ export default function HomeSection(){
         if(ws){
             try {
             
-            const socket=io('wss://13.232.228.186:9001',{
+            const socket=io('http://13.232.228.186:9001',{
                 reconnectionAttempts:3,
                 timeout:5000,
                 transports:["websocket"]
