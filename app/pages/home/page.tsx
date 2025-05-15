@@ -6,7 +6,7 @@ import { io } from 'socket.io-client';
 import '../../globals.css'
 import { uuid } from "uuidv4";
 
-export const HomeSection=()=>{
+export default function HomeSection(){
     const [logs,setLogs]=useState(['']);
     const [loading,setLoading]=useState(false);
     const [input,setInput]=useState('');
