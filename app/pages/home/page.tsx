@@ -28,7 +28,7 @@ export default function HomeSection(){
         duration:2,
         scrambleText:"runix",
         speed:0.5,
-        revealDelay:0.2
+        revealDelay:0.8
     })
     },[])
     const [logs,setLogs]=useState(['']);
